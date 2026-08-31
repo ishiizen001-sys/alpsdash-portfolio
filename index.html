@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlpsDash Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">OPERATIONS DECISION DASHBOARD</p>
+        <h1>AlpsDash Portfolio</h1>
+        <p class="lead">複数拠点の販売データを、集計ではなく意思決定につなげるためのデモ。</p>
+      </div>
+      <div class="badge">Synthetic data only</div>
+    </header>
+
+    <section class="summary" id="summary"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">STORE STATUS</p>
+          <h2>店舗別ステータス</h2>
+        </div>
+        <p class="muted">売上・客数・客単価を分解して、改善ポイントを確認します。</p>
+      </div>
+      <div class="store-grid" id="stores"></div>
+    </section>
+
+    <section class="two-col">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">TOP PRODUCTS</p>
+            <h2>商品Top5</h2>
+          </div>
+        </div>
+        <div id="products"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">DECISION SUPPORT</p>
+            <h2>改善Insight</h2>
+          </div>
+        </div>
+        <div class="insights" id="insights"></div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">DATA QUALITY</p>
+          <h2>データ品質</h2>
+        </div>
+        <p class="muted">分析値だけでなく、分析結果をどこまで信用できるかも可視化します。</p>
+      </div>
+      <div id="quality"></div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
