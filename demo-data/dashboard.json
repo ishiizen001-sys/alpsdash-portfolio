@@ -1,0 +1,32 @@
+{
+  "period": "2026-08",
+  "summary": {
+    "sales": 8124000,
+    "customers": 7210,
+    "avgSpend": 1127,
+    "targetAchievement": 103.4
+  },
+  "stores": [
+    {"name":"Store A","sales":3180000,"customers":2810,"avgSpend":1132,"targetAchievement":106.1,"status":"good"},
+    {"name":"Store B","sales":2674000,"customers":2510,"avgSpend":1065,"targetAchievement":98.7,"status":"warn"},
+    {"name":"Store C","sales":2270000,"customers":1890,"avgSpend":1201,"targetAchievement":105.4,"status":"good"}
+  ],
+  "products": [
+    {"name":"Local Sandwich","sales":482000},
+    {"name":"Premium Coffee","sales":421000},
+    {"name":"Seasonal Bento","sales":396000},
+    {"name":"Fruit Dessert","sales":344000},
+    {"name":"Gift Box","sales":318000}
+  ],
+  "insights": [
+    {"title":"Store B: 客単価を優先確認","body":"客数は想定範囲ですが、客単価が他店より低く目標未達です。セット提案や高単価商品の露出を確認する余地があります。"},
+    {"title":"Store C: 集客余地あり","body":"客単価は3店舗で最も高いため、単価施策よりも入店・購買客数を増やす施策の優先度が高い状態です。"},
+    {"title":"Top商品への依存を確認","body":"上位5商品の構成比が高まっているため、欠品時の売上影響と代替商品の配置を確認します。"}
+  ],
+  "quality": [
+    {"label":"Sales records","score":99},
+    {"label":"Product master match","score":96},
+    {"label":"Category mapping","score":94},
+    {"label":"Expense completeness","score":91}
+  ]
+}
